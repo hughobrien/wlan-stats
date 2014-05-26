@@ -26,13 +26,11 @@ Finally 'gen-diags.py' uses basic looping to drive the generation of a variety o
 Usage
 -----
 Once the fields extracted by tshark in 'do-proc.sh' match those expected by 'proc.py' usage is simply:
-- ./do-proc.sh pcapfile
+<pre>./do-proc.sh pcapfile</pre>
 
-'do-proc.sh' handlese piping the data from tsark to python to the final csv.
+as 'do-proc.sh' handlese piping the data from tsark to python to the final csv.
 
 To generate the graphs:
-- python gen_diags.py | R -q --vanilla
+<pre>python gen_diags.py | R -q --vanilla</pre>
 
-Demo
-----
 ![demo output](https://raw.githubusercontent.com/hughobrien/wlan-stats/master/demo.png)
