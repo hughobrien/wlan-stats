@@ -33,4 +33,6 @@ as 'do-proc.sh' handlese piping the data from tsark to python to the final csv.
 To generate the graphs:
 <pre>python gen_diags.py | R -q --vanilla</pre>
 
+Demo
+----
 ![demo output](https://raw.githubusercontent.com/hughobrien/wlan-stats/master/demo.png)
